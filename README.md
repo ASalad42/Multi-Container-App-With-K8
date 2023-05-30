@@ -33,5 +33,12 @@ Ports
 
 ![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/6a453ed1-fa18-489a-91c9-04c1b1bd08b3)
 
-tagetport (send incoming traffic to) = containerport (inside the pod)
-nodeport gets exposed to the outside world i.e ip:port in browser
+- tagetport (send incoming traffic to) = containerport (inside the pod)
+- nodeport gets exposed to the outside world i.e ip:port in browser
+
+Running container
+- `kubectl apply -f client-pod.yaml`
+- `kubectl apply -f client-node-port.yaml`
+- `kubectl get pods`
+- `kubectl get services`
+- access on localhost:31515
