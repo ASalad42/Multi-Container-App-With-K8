@@ -5,4 +5,6 @@
 
 ![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/e0418a04-c812-4463-ad2d-7491c2e8a81a)
 
-
+- Node - virtual machine or physical computer 
+- Master - controls what each node does 
+- Master + Node form what is called a cluster 
