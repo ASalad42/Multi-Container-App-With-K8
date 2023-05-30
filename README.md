@@ -9,11 +9,9 @@
 - Master - controls what each node does 
 - Master + Node form what is called a cluster 
 
-- Development (Minikube command line tool) 
+- Development 
 - Production (EKS)
 
-![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/0177cf2e-87b9-4fe0-b630-521419d99226)
-![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/2ef4784b-c7ba-48f8-b2ce-a233c9c8b1d8)
 
 config files used to create Objects 
 
@@ -23,3 +21,17 @@ Object types:
   - sub types ClusterIP, NodePort, LoadBalancer, Ingress
 - ReplicaController
 - StatefulSet
+
+Linking it all
+
+![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/2cdcad92-5ae0-45f0-bdcd-861e4b7bf8eb)
+![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/9011f46d-02c9-4d1f-8859-f68c57917500)
+
+key value pair component:web links service & pod in this example but they can be anything
+
+Ports
+
+![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/6a453ed1-fa18-489a-91c9-04c1b1bd08b3)
+
+tagetport (send incoming traffic to) = containerport (inside the pod)
+nodeport gets exposed to the outside world i.e ip:port in browser
