@@ -14,3 +14,12 @@
 
 ![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/0177cf2e-87b9-4fe0-b630-521419d99226)
 ![image](https://github.com/ASalad42/Multi-Container-App-With-K8/assets/104793540/2ef4784b-c7ba-48f8-b2ce-a233c9c8b1d8)
+
+config files used to create Objects 
+
+Object types:
+- pods run one or more closely related containers
+- service sets up networking in a k8 cluster 
+  - sub types ClusterIP, NodePort, LoadBalancer, Ingress
+- ReplicaController
+- StatefulSet
